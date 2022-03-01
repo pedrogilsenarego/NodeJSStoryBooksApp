@@ -5,7 +5,7 @@ const router = express.Router()
 // Login/Landing Page
 // GET/
 router.get("/", (req,res)=>{
-    res.render("login")
+    res.render("login", {layout: "login"})
 })
 
 // DashBoard
